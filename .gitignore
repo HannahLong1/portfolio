@@ -1,1 +1,8 @@
 img/IMG_5122.jpeg
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
