@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hannah Longoria — Portfolio</title>
+  <meta name="description" content="Portfolio of Hannah Longoria — Cyber Security Student" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">Hannah Longoria</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Hi, I'm</p>
+        <h1 class="hero-name">Hannah Longoria</h1>
+        <h2 class="hero-title">Cyber Security Student</h2>
+        <p class="hero-summary">
+          I am a student at Texas A&M University - Corpus Christi, currently I am a student worker at the university
+          working on projects like the ones below. Through the projects I have worked on, I have gained experience
+          in working with different programming languages and frameworks, as well as collaborating with a team to achieve a goal.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/HannahLong1" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/hannah-longoria-31b543287/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:hlongoria55@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-num">01.</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              As a cyber security student I have competed in multiple CTF's and have experience in penetration testing and 
+              vulnerability assessments. I have a passion for learning more about computers and how they operate,
+              and I am always looking for new challenges to improve my skills and knowledge in the field of cyber security.
+            </p>
+            <p>
+              Currently I am on my last year of my degree and I am looking for opportunities to gain more experience
+              in the field of cyber security. I am open to internships, part-time, and full-time positions.
+            </p>
+            <ul class="about-facts">
+              <li>📍 Corpus Christi, TX</li>
+              <li>🎓 Texas A&M University – Corpus Christi</li>
+              <li>💼 Cyber Security Student</li>
+            </ul>
+          </div>
+          <div class="about-photo">
+            <img src="img/profile.jpg" alt="Hannah Longoria" class="about-photo-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-num">02.</span> Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>C++</li>
+              <li>C#</li>
+              <li>Rust</li>
+              <li>Shell</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks & Libraries</h3>
+            <ul class="skill-tags">
+              <li>ASP.NET Core</li>
+              <li>Entity Framework Core</li>
+              <li>Ollama</li>
+              <li>llama.cpp</li>
+              <li>vLLM</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools & Platforms</h3>
+            <ul class="skill-tags">
+              <li>Git</li>
+              <li>Docker</li>
+              <li>SQLite</li>
+              <li>Wireshark</li>
+              <li>Nmap</li>
+              <li>Kali Linux</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Other</h3>
+            <ul class="skill-tags">
+              <li>CTF Competitions</li>
+              <li>LLM Security Research</li>
+              <li>Penetration Testing</li>
+              <li>Network Security</li>
+              <li>Static / Taint Analysis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-num">03.</span> Projects</h2>
+        <div
+          class="projects-grid"
+          id="projectsGrid"
+          data-github-user="HannahLong1"
+          data-max-repos="6"
+          data-pinned-repos="apace-lab/LIMA,apace-lab/AFG"
+        >
+          <p class="projects-status">Loading projects from GitHub…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-num">04.</span> Experience</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Student Worker</h3>
+              <p class="timeline-meta">Texas A&M University – Corpus Christi · January 2026 – Present</p>
+              <ul>
+                <li>Built Docker-based proof-of-concept environments reproducing 10+ CVEs in the Ollama and LocalAI LLM inference servers (memory-safety bugs, DoS, path traversal, and information-disclosure vulnerabilities) for the LIMA security research project.</li>
+                <li>Designed and implemented AFG's LLM-API-detection layer from scratch: a Rust MIR-based static scanner and a companion JS/TS scanner (1,000+ lines) that flag LLM API call sites and match them to known providers.</li>
+                <li>Validated scanning tools against MIR dumps of real-world codebases and authored usage documentation for the research team.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Associate of Science</h3>
+              <p class="timeline-meta">Coastal Bend College · 2022</p>
+              <ul>
+                <li>Completed during high school and was able to complete the program before graduating from high school.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section contact">
+      <div class="section-inner">
+        <h2 class="section-title"><span class="section-num">05.</span> Get In Touch</h2>
+        <p class="contact-intro">
+          Currently seeking opportunities to use my skills and knowledge that I have gained through my education and experience.
+        </p>
+        <a class="btn btn-primary" href="mailto:hlongoria55@gmail.com">Say Hello</a>
+        <div class="hero-socials contact-socials">
+          <a href="https://github.com/HannahLong1" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/hannah-longoria-31b543287/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Hannah Longoria. Built with HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
